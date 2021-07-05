@@ -1,0 +1,46 @@
+
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(62, 88, 152, 0.7),rgba(6, 11, 29, 0.7)),url(images/banner.jpg);
+background-position: center;
+background-size: cover;
+position:relative;
+}
+
+nav {
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
+    size: 10%;
+}
+
+li{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    float: right;
+    position: relative;
+    background-color: chartreuse;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+
+button{
+
+    color: rgb(14, 13, 13);
+    background-color: darksalmon;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    font-size: medium;
+}
+
